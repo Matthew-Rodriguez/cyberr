@@ -6,7 +6,7 @@
     background-image: linear-gradient(
         to right bottom,
         rgba(rgb(212, 198, 198), .15),     
-        rgba(rgb(224, 147, 147), .35)),  url("/fashion.jpg");	
+        rgba(rgb(224, 147, 147), .35)),  url("fashion.jpg");	
          height: 40rem;
          width: 100% !important;
           position: absolute;
@@ -26,7 +26,7 @@ and (max-device-width : 736px) { background-size: 500px 700px;}
     background-image: linear-gradient(
         to left top,
         rgba(rgb(255, 255, 255), .1),     
-          rgba(rgb(197, 71, 71), .1)), url("/images/mens.jpg");	
+          rgba(rgb(197, 71, 71), .1)), url("images/mens.jpg");	
           height: 40rem !important;
           width: 100% !important;
           background-size: 1750px 800px !important;
@@ -76,7 +76,7 @@ background-color: black !important;
     background-image: linear-gradient(
         to left top,
         rgba(rgb(255, 255, 255), .15),     
-          rgba(rgb(197, 71, 71), .15)), url("/images/shades.jpg");	
+          rgba(rgb(197, 71, 71), .15)), url("images/shades.jpg");	
           height: 20rem !important;
           background-size: 1100px 400px;
           transform: scale(.9);
