@@ -6,7 +6,7 @@
     background-image: linear-gradient(
         to right bottom,
         rgba(rgb(212, 198, 198), .15),     
-        rgba(rgb(224, 147, 147), .35)),  url("fashion.jpg");	
+        rgba(rgb(224, 147, 147), .35)),  url("images/fashion.jpg");	
          height: 40rem;
          width: 100% !important;
           position: absolute;
@@ -92,7 +92,7 @@ background-color: black !important;
         background-image: linear-gradient(
             to left top,
             rgba(rgb(255, 255, 255), .10),     
-              rgba(rgb(197, 71, 71), .10)), url("/images/shades.jpg");	
+              rgba(rgb(197, 71, 71), .10)), url("images/shades.jpg");	
     }
     @media only screen 
     and (min-device-width : 414px) 
