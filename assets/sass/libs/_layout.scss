@@ -1,0 +1,183 @@
+.font {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.fashion {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(rgb(212, 198, 198), .15),     
+        rgba(rgb(224, 147, 147), .35)),  url("/fashion.jpg");	
+         height: 40rem;
+         width: 100% !important;
+          position: absolute;
+          background-size: 1450px 700px;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, .25);
+          transform: scale(1);
+    margin-bottom: 1rem !important;
+
+
+
+          @media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { background-size: 500px 700px;}
+        }
+
+.fashion2 {
+    background-image: linear-gradient(
+        to left top,
+        rgba(rgb(255, 255, 255), .1),     
+          rgba(rgb(197, 71, 71), .1)), url("/images/mens.jpg");	
+          height: 40rem !important;
+          width: 100% !important;
+          background-size: 1750px 800px !important;
+          margin-bottom: -1rem !important;
+          position: absolute;
+       box-shadow: 10px 10px 10px rgba(0, 0, 0, .25);
+
+ 
+    @media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) { background-size: 500px 700px;}
+            }
+
+
+.twopiece {
+color: cornsilk;
+background-color: black !important;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    border: .5px solid rgb(105, 4, 4) !important;
+
+    top:26.6rem;
+    float: left;
+    transform: scale(1.4);
+
+    &:hover {
+        color: rgb(14, 13, 13) !important;
+        background: rgb(255, 255, 255) !important;
+    }
+}
+.twopiece2 {
+    color: cornsilk;
+    background-color: black !important;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 2rem;
+        position: relative;
+        border: .5px solid rgb(105, 7, 7) !important;
+        top:26.6rem;
+        left: -2.5rem;
+        float: right;
+        overflow-x: hidden;
+        transform: scale(1.3);
+}
+
+.fashion3 {
+    background-image: linear-gradient(
+        to left top,
+        rgba(rgb(255, 255, 255), .15),     
+          rgba(rgb(197, 71, 71), .15)), url("/images/shades.jpg");	
+          height: 20rem !important;
+          background-size: 1100px 400px;
+          transform: scale(.9);
+    margin-top: 2rem !important;
+    margin-bottom: -5rem !important;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .25);
+ 
+       &:hover {
+        transform: scale(.89);
+        box-shadow: 13px 13px 13px rgba(0, 0, 0, .27);
+
+        background-image: linear-gradient(
+            to left top,
+            rgba(rgb(255, 255, 255), .10),     
+              rgba(rgb(197, 71, 71), .10)), url("/images/shades.jpg");	
+    }
+    @media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) { background-size: 400px 400px;}
+            }
+
+
+.shadesbutton {
+    position: relative;
+    top: 7rem;
+    color: cornsilk;
+background-color: black !important;
+}
+
+.sale {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    animation: sale 2.3s infinite;
+    background-color: rgb(253, 177, 190);
+    height: 8rem;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+
+
+
+    @media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) { font-size: 2rem;}
+            
+            @media only screen 
+            and (min-device-width : 332px) 
+            and (max-device-width : 450px) { font-size: 2rem;}
+        }     
+#saletext {
+    position: relative;
+    top:3rem;
+    
+}
+
+@keyframes sale {
+    25% {
+        color:rgba(255, 255, 255, 0.9)
+    }
+    50% {
+        color:rgba(184, 25, 25, 0.7)
+    }
+    75% {
+        color:rgba(184, 25, 25, 0.7)
+    }
+    100% {
+        color:rgba(255, 255, 255, 0.9)
+    }
+}
+
+.item {
+    color: rgba(255, 255, 255, .7);
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+
+    &_swag {
+        color: rgba(255, 255, 255, 1); font-size: 1.5rem;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5rem;
+       position: relative;
+       left:10%;
+
+    }
+}
+
+.shopping-cart {
+    margin-top: 5rem !important;
+    transform: scale(.95);
+}
+
+.menshead {
+    height: 40rem;
+}
+
+#menshead {
+    margin-bottom: 0 !important;
+}
+
+html {
+    overflow-x: hidden;
+}
