@@ -1828,7 +1828,7 @@ button,
 #banner {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
-  background-image: linear-gradient(to right bottom, rgba(12, 8, 8, 0.75), rgba(10, 4, 4, 0.75)), url("images/light-bl.svg"), url("images/light-br.svg"), url("/images/head.jpg");
+  background-image: linear-gradient(to right bottom, rgba(12, 8, 8, 0.75), rgba(10, 4, 4, 0.75)), url("images/light-bl.svg"), url("images/light-br.svg"), url("images/head.jpg");
   background-position: top left,						center center;
   background-size: 1900px 800px;
   background-position: bottom left, bottom right, top left, top center;
