@@ -4,7 +4,7 @@
   font-family: 'Chakra Petch', sans-serif; }
 
 .fashion {
-  background-image: linear-gradient(to right bottom, rgba(212, 198, 198, 0.15), rgba(224, 147, 147, 0.35)), url("fashion.jpg");
+  background-image: linear-gradient(to right bottom, rgba(212, 198, 198, 0.15), rgba(224, 147, 147, 0.35)), url("images/fashion.jpg");
   height: 40rem;
   width: 100% !important;
   position: absolute;
